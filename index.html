@@ -1,0 +1,91 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>My Portfolio</title>  
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+    <style>
+
+        body{
+            background-image: url(assets/download\ \(3\).jpg);
+        }
+
+        #about{
+            color: white;
+            font-weight: 500;
+        }
+
+        #contact{
+            color: white;
+            font-weight: 500;
+        }
+    </style>
+</head>   
+    <body class="bg-gray-100 text-gray-800">  
+
+        <!-- Header -->  
+        <header class="bg-white shadow">  
+            <div class="max-w-7xl mx-auto py-6 px-4">  
+                <h1 class="text-3xl font-bold">My Portfolio</h1>  
+                <nav class="mt-4">  
+                    <ul class="flex space-x-4">  
+                        <li><a href="#about" class="text-blue-500 hover:underline">About Me</a></li>  
+                        <li><a href="#projects" class="text-blue-500 hover:underline">Projects</a></li>  
+                        <li><a href="#contact" class="text-blue-500 hover:underline">Contact</a></li>  
+                    </ul>  
+                </nav>  
+            </div>  
+        </header>  
+    
+        <!-- About Me Section -->  
+        <section id="about" class="hero-section py-10">  
+            <div class="max-w-7xl mx-auto px-4">  
+                <h2 class="text-2xl font-semibold">About Me</h2>  
+                <p class="mt-4">Hello! I’m a web developer with a passion for creating beautiful and functional websites. I have experience with HTML, CSS, JavaScript, and various frameworks.</p>  
+            </div>  
+        </section>  
+    
+        <!-- Projects Section -->  
+        <section id="projects" class="bg-white py-10">  
+            <div class="max-w-7xl mx-auto px-4">  
+                <h2 class="text-2xl font-semibold">Projects</h2>  
+                <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">  
+                    <div class="border rounded-md p-4 shadow-sm">  
+                        <h3 class="font-semibold">Project One</h3>  
+                        <p>A cool project I worked on that does amazing things.</p>  
+                        <a href="#" class="text-blue-500 hover:underline">View Project</a>  
+                    </div>  
+                    <div class="border rounded-md p-4 shadow-sm">  
+                        <h3 class="font-semibold">Project Two</h3>  
+                        <p>Another great project that showcases my skills.</p>  
+                        <a href="#" class="text-blue-500 hover:underline">View Project</a>  
+                    </div>  
+                 
+                </div>  
+            </div>  
+        </section>  
+    
+        <!-- Contact Section -->  
+        <section id="contact" class="py-10">  
+            <div class="max-w-7xl mx-auto px-4">  
+                <h2 class="text-2xl font-semibold">Contact Me</h2>  
+                <form class="mt-6">  
+                    <input type="text" placeholder="Your Name" class="border rounded-md p-2 w-full mb-4" required>  
+                    <input type="email" placeholder="Your Email" class="border rounded-md p-2 w-full mb-4" required>  
+                    <textarea placeholder="Your Message" class="border rounded-md p-2 w-full mb-4" rows="4" required></textarea>  
+                    <button type="submit" class="bg-blue-500 text-white rounded-md p-2 hover:bg-blue-600">Send Message</button>  
+                </form>  
+            </div>  
+        </section>  
+    
+        <!-- Footer -->  
+        <footer class="bg-gray-300 py-4">  
+            <div class="max-w-7xl mx-auto text-center">  
+                <p>&copy; 2023 My Portfolio. All rights reserved.</p>  
+            </div>  
+        </footer>  
+    
+    </body>  
+</html>
